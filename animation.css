@@ -1,0 +1,55 @@
+.texte {
+    animation-duration: 2s;
+    animation-name: glissement;
+    animation-iteration-count: 1;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 40%;
+      margin-top:30px;
+    }
+  
+    to {
+        top:120px;
+        padding-left:70px;
+        width:40%
+    }
+  }
+.circle{
+    animation-duration: 1s;
+    animation-name: circlee;
+    animation-iteration-count: 1;
+}
+@keyframes circlee {
+    from{
+        margin-left: 100%;
+        right:1000px
+    }
+    to{
+        margin-left: 50%;
+        opacity: 1;
+        right:170px;
+        top:150px;
+    }
+    
+}
+
+
+
+.dest1{
+    animation-duration: 2s;
+    animation-name: bar;
+    animation-iteration-count: 1;
+}
+@keyframes bar{
+    from{
+        margin-top: 300px;
+        top:300px
+    }
+    to{
+        margin-top: 0px;
+        top:30px;
+    }
+}
+
